@@ -505,3 +505,9 @@ C:\work\asp-net-identity\MvcWebIdentity\obj\Debug\net7.0\refint\MvcWebIdentity.d
 C:\work\asp-net-identity\MvcWebIdentity\obj\Debug\net7.0\MvcWebIdentity.pdb
 C:\work\asp-net-identity\MvcWebIdentity\obj\Debug\net7.0\MvcWebIdentity.genruntimeconfig.cache
 C:\work\asp-net-identity\MvcWebIdentity\obj\Debug\net7.0\ref\MvcWebIdentity.dll
+C:\work\asp-net-identity\MvcWebIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\work\asp-net-identity\MvcWebIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\work\asp-net-identity\MvcWebIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\work\asp-net-identity\MvcWebIdentity\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\work\asp-net-identity\MvcWebIdentity\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\work\asp-net-identity\MvcWebIdentity\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
