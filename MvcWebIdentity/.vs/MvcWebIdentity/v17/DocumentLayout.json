@@ -7,12 +7,32 @@
       "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\services\\iseeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:services\\iseeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +58,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAApAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T19:17:09.667Z",
+              "WhenOpened": "2024-04-05T13:16:58.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T13:04:54.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T13:01:27.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAFgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T21:16:20.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
-              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "DocumentIndex": 6,
+              "Title": "SeedUserRoleInitial.cs",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\SeedUserRoleInitial.cs",
+              "RelativeDocumentMoniker": "Services\\SeedUserRoleInitial.cs",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\SeedUserRoleInitial.cs",
+              "RelativeToolTip": "Services\\SeedUserRoleInitial.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAwwGkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T20:52:23.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Alunos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Alunos\\Index.cshtml",
-              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Alunos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Alunos\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-03T20:33:32.649Z"
+              "WhenOpened": "2024-04-05T19:17:31.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,10 +129,61 @@
               "RelativeDocumentMoniker": "Controllers\\AlunosController.cs",
               "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Controllers\\AlunosController.cs",
               "RelativeToolTip": "Controllers\\AlunosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T19:49:50.802Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T20:42:53.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISeedUserRoleInitial.cs",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\ISeedUserRoleInitial.cs",
+              "RelativeDocumentMoniker": "Services\\ISeedUserRoleInitial.cs",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\ISeedUserRoleInitial.cs",
+              "RelativeToolTip": "Services\\ISeedUserRoleInitial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T19:15:27.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T20:52:23.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Alunos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Alunos\\Index.cshtml",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Alunos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Alunos\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T20:33:32.649Z"
             }
           ]
         }

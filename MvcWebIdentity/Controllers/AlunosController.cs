@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcWecIdentity.Context;
 using MvcWecIdentity.Entities;
@@ -21,6 +16,7 @@ namespace MvcWebIdentity.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         // GET: Alunos
         public async Task<IActionResult> Index()
         {
@@ -29,8 +25,10 @@ namespace MvcWebIdentity.Controllers
                           Problem("Entity set 'AppDbContext.Alunos'  is null.");
         }
 
-        // GET: Alunos/Details/5
-        public async Task<IActionResult> Details(int? id)
+		//[Authorize(Roles = "User, Admin, Gerente")]
+		[Authorize(Policy = "RequireUserAdminGerenteRole")]
+		// GET: Alunos/Details/5
+		public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Alunos == null)
             {
@@ -47,8 +45,10 @@ namespace MvcWebIdentity.Controllers
             return View(aluno);
         }
 
-        // GET: Alunos/Create
-        public IActionResult Create()
+		//[Authorize(Roles = "User, Admin, Gerente")]
+		[Authorize(Policy = "RequireUserAdminGerenteRole")]
+		// GET: Alunos/Create
+		public IActionResult Create()
         {
             return View();
         }
@@ -69,8 +69,9 @@ namespace MvcWebIdentity.Controllers
             return View(aluno);
         }
 
-        // GET: Alunos/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+		[Authorize(Roles = "Admin, Gerente")]
+		// GET: Alunos/Edit/5
+		public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Alunos == null)
             {
@@ -120,8 +121,9 @@ namespace MvcWebIdentity.Controllers
             return View(aluno);
         }
 
-        // GET: Alunos/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+		[Authorize(Roles = "Admin, Gerente")]
+		// GET: Alunos/Delete/5
+		public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Alunos == null)
             {
