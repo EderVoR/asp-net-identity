@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseNpgsql(builder.Configuration.GetConnectionString("DbConnection")));
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("DbConnection")), ServiceLifetime.Transient);
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>();
@@ -24,11 +24,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 
 builder.Services.Configure<IdentityOptions>(options =>
-{
-    options.Password.RequiredLength = 6;
-    options.Password.RequiredUniqueChars = 3;
-    options.Password.RequireNonAlphanumeric = false;
-});
+    {
+        options.Password.RequiredLength = 6;
+        options.Password.RequiredUniqueChars = 3;
+        options.Password.RequireNonAlphanumeric = false;
+    });
 
 builder.Services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
@@ -57,6 +57,10 @@ await CriarPerfisUsuarioAsync(app);
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapControllerRoute(
+      name: "MinhaArea",
+      pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",

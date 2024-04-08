@@ -11293,23 +11293,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eder_\\.nuget\\packages\\": {},
+    "C:\\Users\\eder.ribeiro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\asp-net-identity\\MvcWebIdentity\\MvcWebIdentity.csproj",
+      "projectUniqueName": "C:\\work\\asp-net-identity\\MvcWebIdentity\\MvcWebIdentity.csproj",
       "projectName": "MvcWebIdentity",
-      "projectPath": "C:\\dev\\asp-net-identity\\MvcWebIdentity\\MvcWebIdentity.csproj",
-      "packagesPath": "C:\\Users\\eder_\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\asp-net-identity\\MvcWebIdentity\\obj\\",
+      "projectPath": "C:\\work\\asp-net-identity\\MvcWebIdentity\\MvcWebIdentity.csproj",
+      "packagesPath": "C:\\Users\\eder.ribeiro\\.nuget\\packages\\",
+      "outputPath": "C:\\work\\asp-net-identity\\MvcWebIdentity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\eder_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eder.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11331,6 +11331,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11381,24 +11386,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.17, 7.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.17, 7.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.17, 7.0.17]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.17, 7.0.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11407,7 +11394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
