@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MvcWebIdentity.Entities;
 using MvcWecIdentity.Entities;
 
 namespace MvcWecIdentity.Context
@@ -12,6 +13,7 @@ namespace MvcWecIdentity.Context
         }
 
         public DbSet<Aluno> Alunos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

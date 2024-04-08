@@ -31,11 +31,18 @@ builder.Services.Configure<IdentityOptions>(options =>
     });
 
 builder.Services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+builder.Services.AddScoped<ISeedUserClaimsInitial, SeedUserClaimsInitial>();
 
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("RequireUserAdminGerenteRole",
         policy => policy.RequireRole("User", "Admin", "Gerente"));
+
+    options.AddPolicy("IsAdminClaimAccess",
+        policy => policy.RequireClaim("IsAdmin", "true"));
+
+	options.AddPolicy("IsFuncionarioClaimAccess",
+		policy => policy.RequireClaim("IsFuncionario", "true"));
 });
 
 var app = builder.Build();
@@ -77,5 +84,8 @@ async Task CriarPerfisUsuarioAsync(WebApplication web)
         var service = scope.ServiceProvider.GetService<ISeedUserRoleInitial>();
         await service.SeedRolesAsync();
         await service.SeedUsersAsync();
-    }
+
+		var serviceClaim = scope.ServiceProvider.GetService<ISeedUserClaimsInitial>();
+        await serviceClaim.SeedUserClaims();		
+	}
 }
