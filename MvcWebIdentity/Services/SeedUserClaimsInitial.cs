@@ -24,7 +24,7 @@ namespace MvcWebIdentity.Services
 									.Select(p => p.Type);
 
 					if (!claimList.Contains("CadastradoEm"))
-						await _userManager.AddClaimAsync(user1, new Claim("CadastradoEm", DateTime.Now.ToString()));
+						await _userManager.AddClaimAsync(user1, new Claim("CadastradoEm", "09/12/2014"));
 					if (!claimList.Contains("IsAdmin"))
 						await _userManager.AddClaimAsync(user1, new Claim("IsAdmin", "true"));
 				}
@@ -36,10 +36,23 @@ namespace MvcWebIdentity.Services
 					var claimList = (await _userManager.GetClaimsAsync(user2))
 									.Select(p => p.Type);
 
-					if (!claimList.Contains("CadastradoEm"))
-						await _userManager.AddClaimAsync(user2, new Claim("IsAdmin", "false"));
 					if (!claimList.Contains("IsAdmin"))
+						await _userManager.AddClaimAsync(user2, new Claim("IsAdmin", "false"));
+					if (!claimList.Contains("IsFuncionario"))
 						await _userManager.AddClaimAsync(user2, new Claim("IsFuncionario", "true"));
+					if (!claimList.Contains("CadastradoEm"))
+						await _userManager.AddClaimAsync(user1, new Claim("CadastradoEm", "01/01/2020"));
+				}
+
+				IdentityUser user3 = await _userManager.FindByEmailAsync("gerente@localhost");
+
+				if (user3 is not null)
+				{
+					var claimList = (await _userManager.GetClaimsAsync(user3))
+									.Select(p => p.Type);
+				
+					if (!claimList.Contains("CadastradoEm"))
+						await _userManager.AddClaimAsync(user3, new Claim("CadastradoEm", "03/03/2021"));
 				}
 			}	
 			catch (Exception ex)

@@ -28,17 +28,13 @@ namespace MvcWebIdentity.Controllers
         public async Task<IActionResult> Details(int? id)
         {
             if(id == null || _context.Produtos == null) 
-            {
                 return NotFound();
-            }
 
             var produto = await _context.Produtos
                 .FirstOrDefaultAsync(m => m.ProdutoId == id);
 
             if(produto == null)
-            {
                 return NotFound();
-            }
 
             return View(produto);
         }

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\work\\asp-net-identity\\MvcWebIdentity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\services\\seeduserclaimsinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:services\\seeduserclaimsinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\services\\iseeduserclaimsinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:services\\iseeduserclaimsinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\policies\\tempocadastrohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:policies\\tempocadastrohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|c:\\work\\asp-net-identity\\mvcwebidentity\\policies\\tempocadastrorequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0033FD8-F857-4772-9E1F-D8B0C3300A4B}|MvcWebIdentity.csproj|solutionrelative:policies\\tempocadastrorequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedUserClaimsInitial.cs",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\SeedUserClaimsInitial.cs",
+              "RelativeDocumentMoniker": "Services\\SeedUserClaimsInitial.cs",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\SeedUserClaimsInitial.cs",
+              "RelativeToolTip": "Services\\SeedUserClaimsInitial.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwDYAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:16:20.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISeedUserClaimsInitial.cs",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\ISeedUserClaimsInitial.cs",
+              "RelativeDocumentMoniker": "Services\\ISeedUserClaimsInitial.cs",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Services\\ISeedUserClaimsInitial.cs",
+              "RelativeToolTip": "Services\\ISeedUserClaimsInitial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:16:16.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TempoCadastroRequirement.cs",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Policies\\TempoCadastroRequirement.cs",
+              "RelativeDocumentMoniker": "Policies\\TempoCadastroRequirement.cs",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Policies\\TempoCadastroRequirement.cs",
+              "RelativeToolTip": "Policies\\TempoCadastroRequirement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:07:42.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,61 +83,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAowCgAAAApAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T20:22:24.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Produtos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Produtos\\Index.cshtml",
-              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Views\\Produtos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Produtos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T20:03:02.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAAwHwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:04:23.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
-              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:03:04.464Z",
+              "WhenOpened": "2024-04-09T14:05:58.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Entities\\Produto.cs",
-              "RelativeDocumentMoniker": "Entities\\Produto.cs",
-              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Entities\\Produto.cs",
-              "RelativeToolTip": "Entities\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Title": "TempoCadastroHandler.cs",
+              "DocumentMoniker": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Policies\\TempoCadastroHandler.cs",
+              "RelativeDocumentMoniker": "Policies\\TempoCadastroHandler.cs",
+              "ToolTip": "C:\\work\\asp-net-identity\\MvcWebIdentity\\Policies\\TempoCadastroHandler.cs",
+              "RelativeToolTip": "Policies\\TempoCadastroHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T19:00:57.874Z",
+              "WhenOpened": "2024-04-09T13:51:47.514Z",
               "EditorCaption": ""
             }
           ]
