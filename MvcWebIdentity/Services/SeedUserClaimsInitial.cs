@@ -41,7 +41,7 @@ namespace MvcWebIdentity.Services
 					if (!claimList.Contains("IsFuncionario"))
 						await _userManager.AddClaimAsync(user2, new Claim("IsFuncionario", "true"));
 					if (!claimList.Contains("CadastradoEm"))
-						await _userManager.AddClaimAsync(user1, new Claim("CadastradoEm", "01/01/2020"));
+						await _userManager.AddClaimAsync(user2, new Claim("CadastradoEm", "01/01/2020"));
 				}
 
 				IdentityUser user3 = await _userManager.FindByEmailAsync("gerente@localhost");

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<IdentityUser>
+
+<h2>Usuários</h2>
+
+@if(Model.Any())
+{
+	<table class="table table-sm table-bordered table-bordered">
+		<tr>
+			<td>
+				ID
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Nome
+			</td>
+		</tr>
+		@foreach(var user in Model)
+		{
+			<tr>
+				<td>@user.Id</td>
+			</tr>
+			<tr>
+				<td>@user.Email</td>
+			</tr>
+			<td>
+				<form asp-action="EditUser" asp-route-id="@user.Id" method="get">
+					<button type="submit" class="btn btn-sm btn-primary">
+						Gerenciar Claims
+					</button>
+				</form>
+			</td>
+		}
+	</table>
+}
